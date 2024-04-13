@@ -228,3 +228,9 @@ border: 5px solid black;
 .service-card {
 	margin-bottom: 20px;
   }
+
+@media (max-width: 768px) {
+    .logo {
+        width: 50px; /* Устанавливаем новый размер для маленьких экранов */
+    }
+}
