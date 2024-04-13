@@ -9,6 +9,7 @@ educational_practice/
 ├── index.html
 ├── css/
 │   └── style.css
+│   └── style2.css
 ├── img/
 │   └── (здесь будут изображения для сайта)
 |   └── slider/
