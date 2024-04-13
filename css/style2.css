@@ -1,0 +1,230 @@
+html {
+	font-size: 16px;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #000;
+	background-color: #fff;
+	min-width: 320px;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+section {
+	padding: 20px 0;
+}
+
+a {
+	color: #111;
+}
+
+a:hover {
+	color: #555;
+}
+
+/* Header */
+.navbar-light .navbar-nav .nav-link {
+	color: #111;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+.navbar-nav .dropdown-menu {
+	right: 0;
+	left: auto;
+}
+.logo{
+    width: 2%;
+    padding: 1;
+    margin: 11px;
+}
+
+.top-menu li a::after {
+	content: '';
+	display: block;
+	width: 100%;
+	background-color: #111;
+	height: 1px;
+	transition: all .3s;
+	transform: scale(0);
+}
+
+.top-menu li a:hover::after {
+	transform: scale(1);
+}
+
+.modal-body img {
+	max-width: 100px;
+}
+/* Header */
+.carousel-caption {
+  background-color: rgb(93 0 226 / 50%);;
+  padding: 20px;
+}
+.carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 2.25rem;
+    line-height: 1.4;
+  }
+  /* Small devices (phones) */
+@media only screen and (max-width: 600px) {
+  .carousel-caption p {
+    font-size: 18px; /* or any other font size you want */
+  }
+}
+
+/* Medium devices (tablets) */
+@media only screen and (min-width: 600px) and (max-width: 960px) {
+  .carousel-caption p {
+    font-size: 18px; /* or any other font size you want */
+  }
+}
+
+/* Large devices (desktops) */
+@media only screen and (min-width: 960px) {
+  .carousel-caption p {
+    font-size: 20px; /* or any other font size you want */
+  }
+}
+
+/* Carousel */
+.carousel-inner{
+    margin-bottom: 90px;
+}
+.my-carousel {
+	padding: 0;
+}
+
+.my-carousel .carousel-item {
+	display: flex;
+	max-height: 500px;
+}
+
+.my-carousel .carousel-item img {
+	object-fit: cover;
+}
+/* Carousel */
+/* Product card */
+.product-card {
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.06);
+	transition: all .3s;
+}
+
+.product-card:hover {
+	box-shadow: 0 14px 30px -15px rgba(0, 0, 0, 0.75);
+}
+
+.product-thumb a {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 200px;
+	padding: 20px;
+}
+
+.product-thumb img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.product-details {
+	padding: 20px;
+}
+
+.product-details h4 a {
+	font-weight: 500;
+	display: block;
+	height: 60px;
+	overflow: hidden;
+	text-decoration: none;
+}
+
+.product-details p {
+	font-size: 15px;
+	margin-bottom: 20px;
+	color: #999;
+	height: 44px;
+	overflow: hidden;
+}
+
+.product-bottom-details {
+	overflow: hidden;
+	border-top: 1px solid #eee;
+	padding-top: 20px;
+}
+
+.product-price {
+	font-size: 18px;
+	color: #ee6e73;
+	font-weight: 600;
+}
+
+.product-price small {
+	color: #ccc;
+	font-weight: 400;
+	text-decoration: line-through;
+	margin-right: 5px;
+}
+
+.product-links a {
+	font-size: 20px;
+	margin-left: 10px;
+}
+/* Product card */
+.map {
+border: 5px solid black;
+    margin: auto;
+
+    width: 38%;
+}
+/* Footer */
+.footer {
+	background-color: #343434;
+}
+
+.footer h4 {
+	color: #ccc;
+	text-transform: uppercase;
+	font-size: 16px;
+	border-bottom: 1px solid #666;
+	padding-bottom: 3px;
+}
+
+.footer a {
+	text-decoration: none;
+	transition: all .3s;
+}
+
+.footer a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+
+.footer a, .footer li {
+	color: #c8c8c8;
+}
+
+.footer li a {
+	display: block;
+}
+
+.footer-icons a {
+	display: inline-block;
+	margin-right: 15px;
+	font-size: 20px;
+}
+/* Footer */
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+.service-card {
+	margin-bottom: 20px;
+  }
