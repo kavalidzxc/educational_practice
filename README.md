@@ -4,13 +4,15 @@
 
 Структура проекта:
 ```css
-project-folder/
+educational_practice/
 │
 ├── index.html
 ├── css/
 │   └── style.css
 ├── img/
 │   └── (здесь будут изображения для сайта)
+|   └── slider/
+|       └── (здесь будут изображения для слайдера)
 └── README.md
 ```
 
